@@ -1,0 +1,32 @@
+# Optional private allowlist entries.
+#
+# Copy this file to:
+#
+#   allowlist.local.txt
+#
+# Then add machine-specific or work-specific domains/IPs.
+# The local file is ignored by Git.
+#
+# Supported examples:
+#
+#   example.com
+#   *.example.com
+#   203.0.113.10
+#   203.0.113.*
+#   203.0.113
+#   https://example.com/specific/path/*
+
+# Learning / research examples
+# tryhackme.com
+# google.com
+# chatgpt.com
+# github.com
+# youtube.com
+
+# Work domain examples
+# company.example
+# *.company.example
+
+# VPS / private subnet examples
+# 203.0.113.10
+# 203.0.113.*

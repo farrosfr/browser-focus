@@ -1,0 +1,17 @@
+# Local policy backups created before changing HKLM browser policy keys
+policy-backups/
+
+# Private machine/work-specific allowlist entries
+allowlist.local.txt
+
+# PowerShell/editor noise
+*.log
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
