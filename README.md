@@ -96,22 +96,6 @@ This file is ignored by Git. A template is provided:
 allowlist.local.example.txt
 ```
 
-Supported entries:
-
-```text
-tryhackme.com
-google.com
-chatgpt.com
-github.com
-youtube.com
-solar-nusantara.id
-sonushub.id
-217.15.160.*
-203.0.113.10
-*.example.com
-https://example.com/specific/path/*
-```
-
 The enable script automatically merges `allowlist.local.txt` into the browser allowlist.
 
 The script converts entries into browser-specific policy formats. Chrome and Edge use Chromium URL filter syntax such as `google.com` or `https://server:8080/path`. Firefox uses WebExtension-style patterns such as `*://google.com/*` and `<all_urls>` for the default block.
